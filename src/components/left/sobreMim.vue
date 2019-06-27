@@ -1,0 +1,18 @@
+<template>
+	<div>
+		<img class="w-75 rounded-circle" src="../../img/perfil.jpg"/>
+		<h1>Sobre mim</h1>
+		<ul>
+			<li>Desenvolvedor Web</li>
+			<li>Estudo tecnologia a 3 anos</li>
+			<li>procuro sempre me manter atualizado buscando conhecimento em palestras, networking</li>
+			<li>ensino medio completo começando o curso de Ciencias da computação</li>
+		</ul>
+	</div>
+</template>
+
+<script>
+export default {
+  name: 'sobreMim',
+}
+</script>
