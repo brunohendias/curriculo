@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<img class="w-75 rounded-circle" src="../../img/perfil.jpg"/>
+		<img class="w-75 rounded-circle" src="@/img/perfil.jpg"/>
 		<h1>Sobre mim</h1>
 		<ul>
 			<li>Desenvolvedor Web</li>
