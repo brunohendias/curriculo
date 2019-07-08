@@ -3,7 +3,7 @@
 		<h1>Projetos</h1>
 		<b-card-group>
 			<b-card img-src="https://placekitten.com/1000/300">
-				<b-link href="https://github.com/brunohendias/SamBox" class="card-link">Sam Box</b-link>
+				<b-link href="https://brunohendias.github.io/Sambox" class="card-link">Sam Box</b-link>
 				<b-card-text>Projeto para a empresa Sam Box, feito usando Bootstrap-4 Vue.js Jquery</b-card-text>
 			</b-card>
 			<b-card img-src="https://placekitten.com/1000/300">
