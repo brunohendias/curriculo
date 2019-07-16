@@ -1,6 +1,6 @@
 <template>
 	<div class="text-center">
-		<img class="w-75 rounded-circle" src="@/img/perfil.jpg"/>
+		<img class="w-75" src="@/img/perfil.jpg"/>
 		<h1>Sobre mim</h1>
 		<ul class="text-left">
 			<li>Desenvolvedor Web</li>
@@ -16,3 +16,9 @@ export default {
   name: 'sobreMim',
 }
 </script>
+
+<style>
+	img{
+		border-radius: 20px;
+	}
+</style>
