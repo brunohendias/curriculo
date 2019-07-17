@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div id="cursos">
 		<h1>Cursos</h1>
 		<h3>Front-end</h3>
 		<b-list-group>

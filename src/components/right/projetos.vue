@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div id="projetos">
 		<h1>Projetos</h1>
 		<b-card-group>
 			<b-card img-src="https://placekitten.com/1000/300">
@@ -28,6 +28,6 @@
 
 <script>
 export default {
-  name: 'projects',
+  name: 'projetos',
 }
 </script>

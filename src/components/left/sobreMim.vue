@@ -1,5 +1,5 @@
 <template>
-	<div class="text-center">
+	<div id="sobreMim" class="text-center">
 		<img class="w-75" src="@/img/perfil.jpg"/>
 		<h1>Sobre mim</h1>
 		<ul class="text-left">

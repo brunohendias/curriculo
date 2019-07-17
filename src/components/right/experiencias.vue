@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div id="experiencias">
 		<h1>Experiencias</h1>
 		<a href="https://vuejs.org/"><img src="@/img/vue.png" alt="Vue"><span>Vue</span></a>
 		<a href="https://getbootstrap.com/"><img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap"><span>Bootstrap</span></a>
@@ -12,3 +12,9 @@ export default {
   name: 'experiencias',
 }
 </script>
+
+<style lang="css" scoped>
+	#experiencias{
+		text-align: center;
+	}
+</style>
