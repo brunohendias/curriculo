@@ -1,12 +1,12 @@
 <template>
 	<div id="sobreMim" class="text-center">
-		<img class="w-75" src="@/img/perfil.jpg"/>
+		<img class="w-50" src="@/img/perfil.jpg" alt="foto de perfil">
 		<h1>Sobre mim</h1>
 		<ul class="text-left">
 			<li>Desenvolvedor Web</li>
 			<li>Estudo tecnologia a 3 anos</li>
-			<li>procuro sempre me manter atualizado buscando conhecimento em palestras, networking</li>
-			<li>ensino medio completo começando o curso de Ciencias da computação</li>
+			<li>Procuro sempre me manter atualizado buscando conhecimento em palestras, networking, rede socias</li>
+			<li>Ensino medio completo começando o curso de Ciencias da computação</li>
 		</ul>
 	</div>
 </template>

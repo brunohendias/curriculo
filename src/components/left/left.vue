@@ -1,19 +1,19 @@
 <template>
 	<div>
 		<Sobremim />
-		<Contato />
+		<Experiencias />
 	</div>
 </template>
 
 <script>
 import Sobremim from './sobreMim'
-import Contato from './contato'
+import Experiencias from './experiencias'
 
 export default {
   name: 'left',
   components: {
   	Sobremim,
-  	Contato
+  	Experiencias
   }
 }
 </script>
