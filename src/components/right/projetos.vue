@@ -11,11 +11,14 @@
 			<b-list-group-item href="https://brunohendias.github.io/Megasena">
 				<span>Mega sena - Pequeno projeto sobre o evento Mega-sena feito com: JavaScript puro e bootstrap 4</span>
 			</b-list-group-item>
-			<b-list-group-item href="https://github.com/brunohendias/Python">
-				<span>Python - Exercicios e mini jogos para praticar</span>
+			<b-list-group-item href="https://brunohendias.github.io/stocktrader">
+				<span>Trader - Compra e venda de ações feito com: Vue, Vuetify, axios</span>
 			</b-list-group-item>
 			<b-list-group-item href="https://brunohendias.github.io/formulario">
 				<span>Formulario de cadastro feito com: Vue, axios e bootstrap 4</span>
+			</b-list-group-item>
+			<b-list-group-item href="https://github.com/brunohendias/Python">
+				<span>Python - Exercicios e mini jogos para praticar</span>
 			</b-list-group-item>
 		</b-list-group>
 	</div>
