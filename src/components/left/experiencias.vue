@@ -24,6 +24,9 @@
 				<b-card img-src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png" class="m-2 p-1" img-alt="MySql">
 					<b-link href="https://www.mysql.com/" class="card-link">MySql</b-link>
 				</b-card>
+				<b-card img-src="https://img.icons8.com/color/100/000000/linux.png" class="m-2 p1" img-alt="Linux">
+					<b-link href="https://linux.org/" class="card-link">Linux</b-link>
+				</b-card>
 			</b-row>
 		</b-card-group>
 	</div>
