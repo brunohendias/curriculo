@@ -26,6 +26,9 @@
 			<b-list-group-item href="https://github.com/brunohendias/Python/">
 				<span>Python - Exercicios e mini jogos para praticar</span>
 			</b-list-group-item>
+			<b-list-group-item href="https://github.com/brunohendias/laravelVue/">
+				<span>Laravel - Vue.js + Laravel, feito com: Laravel 6, Vue 2, Bootstrap 4</span>
+			</b-list-group-item>
 		</b-list-group>
 	</div>
 </template>
