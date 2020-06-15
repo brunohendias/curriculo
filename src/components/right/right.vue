@@ -1,8 +1,8 @@
 <template>
 	<div>
-    <Cursos />
 		<Projetos />
-    <Contato />
+		<Cursos />
+		<Contato />
 	</div>
 </template>
 
@@ -12,17 +12,11 @@ import Cursos from './cursos'
 import Contato from './contato'
 
 export default {
-  name: 'right',
-  components:{
-  	Projetos,
-  	Cursos,
-    Contato
-  }
+    name: 'right',
+    components: {
+    	Projetos,
+    	Cursos,
+        Contato
+    }
 }
 </script>
-
-<style lang="css">
-  span, p{
-    color: #007bff;
-  }
-</style>

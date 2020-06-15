@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<Sobremim />
-		<Experiencias />
+        <Experiencias />
 	</div>
 </template>
 
@@ -10,10 +10,10 @@ import Sobremim from './sobreMim'
 import Experiencias from './experiencias'
 
 export default {
-  name: 'left',
-  components: {
-  	Sobremim,
-  	Experiencias
-  }
+	name: 'left',
+	components: {
+		Sobremim,
+    	Experiencias
+	}
 }
 </script>

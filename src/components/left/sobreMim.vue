@@ -1,24 +1,38 @@
 <template>
-	<div id="sobreMim" class="text-center">
-		<img class="w-50" src="@/img/perfil.jpg" alt="foto de perfil">
-		<h1>Sobre mim</h1>
-		<ul class="text-left">
-			<li>Desenvolvedor Web</li>
-			<li>Estudo tecnologia a 3 anos</li>
-			<li>Procuro sempre me manter atualizado buscando conhecimento em palestras, networking, rede socias</li>
-			<li>Ensino medio completo começando o curso de Ciencias da computação</li>
-		</ul>
+	<div id="sobreMim" class="boxInfo">
+		<div class="row rounded">
+			<div class="col-md-4">
+				<img class="h-100 w-100 rounded" src="@/img/perfil.jpg" alt="foto de perfil">
+			</div>
+			<div class="col-md-8">
+				<ol>
+					<template v-for="info in infos">
+						<li class="mt-3">{{info.texto}}</li>
+					</template>
+				</ol>
+			</div>
+		</div>
 	</div>
 </template>
 
 <script>
 export default {
-  name: 'sobreMim',
+	data() {
+		return {
+			infos: [
+				{'texto': 'Desenvolvedor Web Full Stack.'},
+				{'texto': 'Sempre a procura de novas tecnologias em diversas areas.'},
+				{'texto': 'Buscando conhecimento em palestras, networking, rede socias...'},
+				{'texto': 'Começei a estudar tecnologia aos 17 anos em 2017.'},
+				{'texto': 'Ensino medio completo cursando Ciencias da computação.'}
+			]
+		}
+	}
 }
 </script>
 
-<style>
-	img{
-		border-radius: 20px;
+<style lang="css">
+	li {
+		list-style-type: circle;
 	}
 </style>
