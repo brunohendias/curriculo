@@ -40,7 +40,7 @@ link: [Curriculo](https://brunohendias.github.io)</p>
 
 <h3>Então vamos lá!</h3>
 
-<p> Primeiramente gere o build do seu projeto digitando <b>npm run build</b> na raiz do seu projeto.</p>
+<p> Primeiramente gere o build do seu projeto digitando <b>npm run build</b> na raiz do seu projeto. Remova os arquivos dentro da pasta dist para a raiz do projeto para que o github consiga acessar a index.html <br> Recomendo subir esses arquivos em outra branch ou em outro repositorio por questões de organização</p>
 
 <p> Temos uma ressalva com o path dos arquivos e tals mas calma que vou te ajudar também</p>
 
