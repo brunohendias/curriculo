@@ -32,7 +32,7 @@
 ## Link para ver um exemplo
 
 <p>Caso queira conferir como o recurso funciona, você pode acessar meu curriculo e nele tem os meus repositorios hospedados no github pages.
-link: [Curriculo](https://brunohendias.github.io)</p>
+link: <a href="https://brunohendias.github.io">Curriculo</a></p>
 
 ## Pensou que acabo ?!
 
@@ -40,11 +40,11 @@ link: [Curriculo](https://brunohendias.github.io)</p>
 
 <h3>Então vamos lá!</h3>
 
-<p> Primeiramente gere o build do seu projeto digitando <b>npm run build</b> na raiz do seu projeto. Remova os arquivos dentro da pasta dist para a raiz do projeto para que o github consiga acessar a index.html <br> Recomendo subir esses arquivos em outra branch ou em outro repositorio por questões de organização</p>
+<p> Primeiramente gere o build do seu projeto digitando <b>NPM RUN BUILD</b> na raiz do seu projeto. Remova os arquivos dentro da pasta dist para a raiz do projeto para que o github consiga acessar a index.html <br> Recomendo subir esses arquivos em outra branch ou em outro repositorio por questões de organização</p>
 
 <p> Temos uma ressalva com o path dos arquivos e tals mas calma que vou te ajudar também</p>
 
-<p> Na raiz do projeto você cria um arquivo chamado <b>vue.config.js</b> nele você coloca todas as configurações nescessarias para sua aplicacao conseguir encontrar os arquivos. Segue um link para saber como configura esse arquivo: [Vue Config](https://cli.vuejs.org/config/#publicpath). Não vou tratar desse assunto pois é extenso</p>
+<p> Na raiz do projeto você cria um arquivo chamado <b>vue.config.js</b> nele você coloca todas as configurações nescessarias para sua aplicacao conseguir encontrar os arquivos. Segue um link para saber como configura esse arquivo: <a href="https://cli.vuejs.org/config/#publicpath">Vue Config</a>. Não vou tratar desse assunto pois é extenso</p>
 
 ## Bom aproveito desse recurso e lembrem-se o compartilhamento de conhecimento é bom para todos.
 
