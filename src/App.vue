@@ -1,45 +1,34 @@
 <template>
-    <div id="app" class="mt-5">
-        <b-container fluid>
-            <b-row>
-                <b-col lg="6">
-                    <Left />
-                </b-col>
-                <b-col lg="6">
-                    <Right />
-                </b-col>
-            </b-row>
-        </b-container>
-    </div>
+  <div id="app">
+    <navbar/>
+    <portifolio />
+    <projetos />
+    <sobre />
+    <experiencias />
+    <contato />
+    <modal />
+  </div>
 </template>
 
 <script>
-import Left from './components/left/left'
-import Right from './components/right/right'
+import navbar from './components/navbar.vue'
+import portifolio from './components/sections/portifolio.vue'
+import projetos from './components/sections/projetos.vue'
+import sobre from './components/sections/sobre.vue'
+import experiencias from './components/sections/experiencias.vue'
+import contato from './components/sections/contato.vue'
+import modal from './components/shared/modals/modalExperiencias'
 
 export default {
-    name: 'app',
-    components: {
-        Left,
-        Right
-    }
+  name: 'App',
+  components: {
+    navbar,
+    portifolio,
+    projetos,
+    sobre,
+    experiencias,
+    contato,
+    modal
+  }
 }
 </script>
-
-<style lang="css">
-    body {
-        background-color: #333;
-        color: white;
-    }
-    h1{
-        text-align: center;
-        margin: 30px 0px;
-    }
-    h2{
-        margin: 15px 0px 15px 50px;
-    }
-    .boxInfo {
-        background-color: #555;
-        color: white;
-    }
-</style>
