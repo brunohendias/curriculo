@@ -1,15 +1,8 @@
 <template>
     <section class="page-section portfolio" id="experiencias">
         <div class="container text-center">
-            <!-- Portfolio Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">{{title}}</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Portfolio Grid Items-->
+            <divider />
             <div v-for="(row, i) in rows" :key="i">
                 <h1 class="my-5">{{row.title}}</h1>
                 <div class="row justify-content-center">
@@ -30,13 +23,17 @@
 </template>
 
 <script>
+import divider from '../shared/divider.vue'
+
 export default {
     name: 'experiencias',
+    components: {
+        divider
+    },
     data() {
         return {
             title: 'Experiencias',
-            rows: [
-                {
+            rows: [{
                     title: 'Front - End',
                     cards: [
                         { nome: 'vuejs', src: require('@/assets/img/experiencias/frontend/vue.jpeg') },
@@ -63,8 +60,7 @@ export default {
                     cards: [
                         { nome: 'Linux/Windows', src: require('@/assets/img/experiencias/so/linuxwindows.webp') }
                     ]
-                }
-            ]
+            }]
         }
     }
 }

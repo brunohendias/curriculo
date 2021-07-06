@@ -1,17 +1,17 @@
 <template>
-  <div id="app">
-    <navbar/>
-    <portifolio />
-    <projetos />
-    <sobre />
-    <experiencias />
-    <contato />
-    <modal />
-  </div>
+    <div id="app">
+        <navbar/>
+        <portifolio />
+        <projetos />
+        <sobre />
+        <experiencias />
+        <contato />
+        <modal />
+    </div>
 </template>
 
 <script>
-import navbar from './components/navbar.vue'
+import navbar from './components/shared/navbar.vue'
 import portifolio from './components/sections/portifolio.vue'
 import projetos from './components/sections/projetos.vue'
 import sobre from './components/sections/sobre.vue'
