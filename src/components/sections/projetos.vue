@@ -14,7 +14,7 @@
                         <h5>
                             {{ card.nome }}
                         </h5>
-                        <img class="img-fluid" :src="card.src" :alt="card.nome" />
+                        <img class="card-tela-section" :src="card.src" :alt="card.nome" />
                     </div>
                 </div>
             </div>
@@ -34,23 +34,23 @@ export default {
         return {
             title: 'Projetos',
             cards: [{
+                    nome: 'Ficha de inscrição', 
+                    src: require('@/assets/img/portfolio/inscricao/inscricao.jpeg')
+                },{
                     nome: 'Gerence', 
                     src: require('@/assets/img/portfolio/gerence/login.jpeg')
                 },{
-                    nome: 'Stock trader', 
-                    src: require('@/assets/img/portfolio/stocktrader/stocktrader.jpeg')
-                },{
                     nome: 'Centro de vacinação', 
                     src: require('@/assets/img/portfolio/vacinacao/vacina.jpeg')
+                },{
+                    nome: 'Stock trader', 
+                    src: require('@/assets/img/portfolio/stocktrader/stocktrader.jpeg')
                 },{
                     nome: 'Sambox', 
                     src: require('@/assets/img/portfolio/sambox/sambox.png')
                 },{
                     nome: 'Vingadores', 
                     src: require('@/assets/img/portfolio/vingadores/vingadores.png')
-                },{
-                    nome: 'Tarefas', 
-                    src: require('@/assets/img/portfolio/tarefas/tarefas.png')
                 }
             ]
         }
