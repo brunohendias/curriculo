@@ -5,12 +5,15 @@
             <divider />
             <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-4 mb-5" v-for="(card, i) in cards" :key="i">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" :data-target="card.target">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" :data-target="'#portfolioModal'+i">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
                         </div>
+                        <h5>
+                            {{ card.nome }}
+                        </h5>
                         <img class="img-fluid" :src="card.src" :alt="card.nome" />
                     </div>
                 </div>
@@ -31,30 +34,25 @@ export default {
         return {
             title: 'Projetos',
             cards: [{
-                    nome: 'Sambox', 
-                    src: require('@/assets/img/portfolio/sambox.png'), 
-                    target: '#portfolioModal1' 
+                    nome: 'Gerence', 
+                    src: require('@/assets/img/portfolio/gerence/login.jpeg')
                 },{
                     nome: 'Stock trader', 
-                    src: require('@/assets/img/portfolio/stocktrader.png'), 
-                    target: '#portfolioModal2' 
+                    src: require('@/assets/img/portfolio/stocktrader/stocktrader.jpeg')
                 },{
-                    nome: 'Gerence', 
-                    src: require('@/assets/img/portfolio/gerence.png'), 
-                    target: '#portfolioModal3' 
+                    nome: 'Centro de vacinação', 
+                    src: require('@/assets/img/portfolio/vacinacao/vacina.jpeg')
                 },{
-                    nome: 'Tarefas', 
-                    src: require('@/assets/img/portfolio/tarefas.png'), 
-                    target: '#portfolioModal4' 
+                    nome: 'Sambox', 
+                    src: require('@/assets/img/portfolio/sambox/sambox.png')
                 },{
                     nome: 'Vingadores', 
-                    src: require('@/assets/img/portfolio/centralcine.png'), 
-                    target: '#portfolioModal5' 
+                    src: require('@/assets/img/portfolio/vingadores/vingadores.png')
                 },{
-                    nome: 'Mega sena', 
-                    src: require('@/assets/img/portfolio/megasena.png'), 
-                    target: '#portfolioModal6' 
-            }]
+                    nome: 'Tarefas', 
+                    src: require('@/assets/img/portfolio/tarefas/tarefas.png')
+                }
+            ]
         }
     }
 }

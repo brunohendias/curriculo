@@ -32,7 +32,7 @@ export default {
                 {nome: 'Projetos', href: '#portfolio'},
                 {nome: 'Sobre', href: '#about'},
                 {nome: 'Experiencias', href: '#experiencias'},
-                {nome: 'Contato', href: '#contact'}
+                //{nome: 'Contato', href: '#contact'}
             ]
         }
     }

@@ -19,7 +19,7 @@ export default {
     },
     data() {
         return {
-            avatar: require('@/assets/img/avatars/avatarredondonavbar.png'),
+            avatar: require('@/assets/img/avatars/avatar.png'),
             title: 'Portfolio',
             subhead: 'Web Developer - Full Stack'
         }
