@@ -66,7 +66,7 @@ export default {
             links: {
                 inscricao: 'https://inscricao.brunohendias.com.br',
                 gerence: 'https://gerence.brunohendias.com.br',
-                vacinacao: 'https://github.com/brunohendias/vacinacao',
+                vacinacao: 'https://vacinacao.brunohendias.com.br/historico',
                 stocktrader: 'https://stocktrader.brunohendias.com.br',
                 sambox: 'https://sambox.brunohendias.com.br',
                 vingadores: 'https://brunohendias.github.io/Vingadores',
